@@ -1,0 +1,4 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:drawable="@drawable/buttonmyclub" android:state_pressed="false"/>  
+        <item android:drawable="@drawable/buttonmyclubpressed" android:state_pressed="true"/> 
+</selector> 

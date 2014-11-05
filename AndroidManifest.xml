@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myclubmy"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.NoActionBar" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@android:style/Theme.Holo.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MyPlan"
+            android:label="@string/title_activity_my_plan"
+            android:theme="@android:style/Theme.Holo.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".AllNote"
+            android:label="@string/title_activity_all_note" >
+        </activity>
+        <activity
+            android:name=".SettingActivity"
+            android:label="@string/title_activity_setting" >
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/title_activity_register"
+            android:theme="@android:style/Theme.Holo.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".MyClubActivity"
+            android:label="@string/title_activity_my_club"
+            android:theme="@android:style/Theme.Holo.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".MyClub"
+            android:label="@string/title_activity_my_club"
+            android:theme="@android:style/Theme.Holo.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".ClubManagerActivity"
+            android:label="@string/title_activity_club_manager"
+            android:theme="@android:style/Theme.Holo.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".ClubSubManagerActivity"
+            android:label="@string/title_activity_club_sub_manager"
+            android:theme="@android:style/Theme.Holo.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".SubClubActivity"
+            android:label="@string/title_activity_sub_club" >
+        </activity>
+        <activity
+            android:name=".CreateClubActivity"
+            android:label="@string/title_activity_create_club" >
+        </activity>
+        <activity
+            android:name=".SearchClubActivity"
+            android:label="@string/title_activity_search_club" >
+        </activity>
+        <activity
+            android:name=".SubClubManagerNewActivity"
+            android:label="@string/title_activity_sub_club_manager_new" >
+        </activity>
+        <activity
+            android:name=".ClubActivityActivity"
+            android:label="@string/title_activity_club_activity" >
+        </activity>
+        <activity
+            android:name=".WorkNoteActivity"
+            android:label="@string/title_activity_work_note" >
+        </activity>
+        <activity
+            android:name=".MemberManagerActivity"
+            android:label="@string/title_activity_member_manager" >
+        </activity>
+        <activity
+            android:name=".MoneyManagerActivity"
+            android:label="@string/title_activity_money_manager" >
+        </activity>
+        <activity
+            android:name=".NoModifyClubActivity"
+            android:label="@string/title_activity_no_modify_club" >
+        </activity>
+        <activity
+            android:name=".MyCalendarActivity"
+            android:label="@string/title_activity_my_calendar" >
+        </activity>
+        <activity
+            android:name=".ResourceShareActivity"
+            android:label="@string/title_activity_resource_share" >
+        </activity>
+        <activity
+            android:name=".PlayingGamesActivity"
+            android:label="@string/title_activity_playing_games" >
+        </activity>
+    </application>
+
+</manifest>

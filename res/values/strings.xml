@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyClub</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_login">MyClub</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_my_plan">MyPlan</string>
+    <string name="title_activity_all_note">AllNote</string>
+    <string name="title_activity_setting">SettingActivity</string>
+
+    <drawable name="clr_normal">#00000000</drawable>
+    <drawable name="clr_pressed">#808A87</drawable>
+
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_my_club">MyClubActivity</string>
+    <string name="title_activity_club_manager">ClubManagerActivity</string>
+    <string name="title_activity_club_sub_manager">ClubSubManagerActivity</string>
+    <string name="title_section1">社团活动</string>
+    <string name="title_section2">工作通知</string>
+    <string name="title_section3">成员管理</string>
+    <string name="title_section4">财务管理</string>
+    <string name="title_activity_my_club_sub_manager">MyClubSubManagerActivity</string>
+    <string name="title_activity_sub_club">SubClubActivity</string>
+    <string name="title_activity_sub_club2">SubClub2Activity</string>
+    <string name="title_activity_create_club">CreateClubActivity</string>
+    <string name="title_activity_search_club">SearchClubActivity</string>
+    <string name="title_activity_sub_club_manager_new">SubClubManagerNewActivity</string>
+    <string name="title_activity_club_activity">ClubActivityActivity</string>
+    <string name="title_activity_work_note">WorkNoteActivity</string>
+    <string name="title_activity_member_manager">MemberManagerActivity</string>
+    <string name="title_activity_money_manager">MoneyManagerActivity</string>
+    <string name="title_activity_no_modify_club">NoModifyClubActivity</string>
+    <string name="title_activity_my_calendar">MyCalendarActivity</string>
+    <string name="title_activity_resource_share">ResourceShareActivity</string>
+    <string name="title_activity_playing_games">PlayingGamesActivity</string>
+
+</resources>
